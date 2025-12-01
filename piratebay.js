@@ -1,7 +1,7 @@
 import Source from './Source.js'
 
-export default new class Nyaa extends Source {
-  base = 'https://torrent-search-api-livid.vercel.app/api/nyaasi/'
+export default new class PirateBay extends Source {
+  base = 'https://torrent-search-api-livid.vercel.app/api/piratebay/'
 
   /** @type {import('./').SearchFunction} */
   async single({ titles, episode }) {
