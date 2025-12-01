@@ -1,6 +1,4 @@
-import Source from './Source.js'
-
-export default new class SubsPlease extends Source {
+export default new class SubsPlease {
   base = 'https://subsplease.org/api/'
 
   /** @type {import('./').SearchFunction} */

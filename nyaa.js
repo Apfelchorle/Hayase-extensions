@@ -1,6 +1,4 @@
-import Source from './Source.js'
-
-export default new class Nyaa extends Source {
+export default new class Nyaa {
   base = 'https://torrent-search-api-livid.vercel.app/api/nyaasi/'
 
   /** @type {import('./').SearchFunction} */

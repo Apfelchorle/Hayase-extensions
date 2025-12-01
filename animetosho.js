@@ -1,8 +1,6 @@
-import Source from './Source.js'
-
 const QUALITIES = ['1080', '720', '540', '480']
 
-export default new class Tosho extends Source {
+export default new class Tosho {
   url = atob('aHR0cHM6Ly9mZWVkLmFuaW1ldG9zaG8ub3JnL2pzb24=')
 
   buildQuery ({ resolution, exclusions }) {

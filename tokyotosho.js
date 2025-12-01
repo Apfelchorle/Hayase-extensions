@@ -1,6 +1,4 @@
-import Source from './Source.js'
-
-export default new class TokyoTosho extends Source {
+export default new class TokyoTosho {
   base = 'https://www.tokyotosho.info/rss.php'
 
   /** @type {import('./').SearchFunction} */

@@ -1,6 +1,4 @@
-import Source from './Source.js'
-
-export default new class PirateBay extends Source {
+export default new class PirateBay {
   base = 'https://torrent-search-api-livid.vercel.app/api/piratebay/'
 
   /** @type {import('./').SearchFunction} */
