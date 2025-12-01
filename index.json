@@ -1,0 +1,13 @@
+[
+  {
+    "package": "hayase.extension.nyaa",
+    "name": "Nyaa",
+    "version": "1.0.0",
+    "type": "bangumi",
+    "lang": "all",
+    "desc": "Streams anime torrents directly from Nyaa.si. No Debrid required.",
+    "icon": "https://nyaa.si/static/favicon.png",
+    "url": "nyaa.js",
+    "webSite": "https://nyaa.si"
+  }
+]
