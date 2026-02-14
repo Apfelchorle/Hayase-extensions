@@ -85,7 +85,7 @@ export default new class TokyoTosho {
 
   async test() {
     try {
-      const res = await fetch(this.base)
+      const res = await fetch('https://www.tokyotosho.info')
       return res.ok
     } catch {
       return false
